@@ -12,7 +12,7 @@ services:
       - ./:/app
       - /app/node_modules
     environment:
-      - NODE_APP=development
+      - NODE_ENV=development
       - MONGO_USER=facudelucia
       - MONGO_PASSWORD=anashe
       - SESSION_SECRET=secret
